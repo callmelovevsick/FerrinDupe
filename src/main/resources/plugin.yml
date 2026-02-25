@@ -1,0 +1,17 @@
+name: FerrinDupe
+version: 1.0
+main: ferrin.dupe.FerrinDupe
+api-version: "1.21"
+author: lovevsick
+description: Anvil Impact Item Multiplier System
+
+commands:
+  ferrindupe:
+    description: Reload plugin
+    permission: ferrindupe.reload
+
+permissions:
+  ferrindupe.use:
+    default: true
+  ferrindupe.reload:
+    default: op
